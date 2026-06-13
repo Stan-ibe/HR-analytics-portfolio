@@ -1,18 +1,27 @@
 {
-  "brand": {
-    "name": "Stan",
-    "surname": "Okafor"
-  },
-  "hero": {
-    "eyebrow": "Lagos, Nigeria — HR & Systems",
-    "titleStart": "People-first systems, built one ",
-    "titleEmphasis": "accompanied",
-    "titleEnd": " step at a time.",
-    "subtitle": "I'm Stan — an HR practitioner, people development consultant, and workflow automation builder. I design HR programmes, write about organisational change, and build the everyday tools (registers, dashboards, trackers) that help teams run better.",
-    "primaryButtonText": "View projects →",
-    "primaryButtonLink": "#projects",
-    "secondaryButtonText": "Download CV",
-    "secondaryButtonLink": "#"
+  "contact": {
+    "title": "Let's talk about people, systems, or both.",
+    "text": "Open to HR consulting engagements, workflow automation projects, and conversations about analytics in HR. Based in Lagos, working with teams anywhere.",
+    "links": [
+      {
+        "label": "Email",
+        "value": "hello@stanokafor.com",
+        "href": "mailto:hello@stanokafor.com",
+        "arrow": "↗"
+      },
+      {
+        "label": "LinkedIn",
+        "value": "/in/stanokafor",
+        "href": "#",
+        "arrow": "↗"
+      },
+      {
+        "label": "CV",
+        "value": "Download PDF",
+        "href": "#",
+        "arrow": "↓"
+      }
+    ]
   },
   "register": [
     {
@@ -40,6 +49,10 @@
       "desc": "Writing on transformation, ethics at work, and meeting people where they are — grounded in Catholic social teaching."
     }
   ],
+  "brand": {
+    "name": "Stanislaus",
+    "surname": "Ibe"
+  },
   "about": {
     "sectionLabel": "01 — ABOUT",
     "title": "A practitioner's approach",
@@ -194,6 +207,21 @@
       }
     ]
   },
+  "hero": {
+    "secondaryButtonLink": "#",
+    "primaryButtonText": "View projects →",
+    "titleEnd": " step at a time.",
+    "eyebrow": "Lagos, Nigeria — HR & Systems",
+    "titleStart": "People-first systems, built one ",
+    "primaryButtonLink": "#projects",
+    "secondaryButtonText": "Download CV",
+    "titleEmphasis": "accompanied",
+    "subtitle": "I'm Stan — an HR practitioner, people development consultant, and workflow automation builder. I design HR programmes, write about organisational change, and build the everyday tools (registers, dashboards, trackers) that help teams run better."
+  },
+  "footer": {
+    "left": "© 2026 Stanislaus Ibe.",
+    "right": "Register entries 01 – 04"
+  },
   "writing": {
     "sectionLabel": "04 — WRITING",
     "title": "Articles & notes",
@@ -204,47 +232,7 @@
         "title": "Accompaniment: The Missing Word in Every Transformation Conversation",
         "excerpt": "On why meeting people where they are matters more than choosing the most sophisticated tool.",
         "link": "#"
-      },
-      {
-        "date": "2026",
-        "title": "Integrity, Without the Lecture",
-        "excerpt": "Notes from facilitating an integrity training session for non-teaching staff — drivers, security, maintenance, and horticulturists.",
-        "link": "#"
-      },
-      {
-        "date": "2025",
-        "title": "Empowering People to Lead Change",
-        "excerpt": "A report from Whitesands School's International HR Day mini-workshop, marking the school's 25th anniversary year.",
-        "link": "#"
       }
     ]
-  },
-  "contact": {
-    "title": "Let's talk about people, systems, or both.",
-    "text": "Open to HR consulting engagements, workflow automation projects, and conversations about analytics in HR. Based in Lagos, working with teams anywhere.",
-    "links": [
-      {
-        "label": "Email",
-        "value": "hello@stanokafor.com",
-        "href": "mailto:hello@stanokafor.com",
-        "arrow": "↗"
-      },
-      {
-        "label": "LinkedIn",
-        "value": "/in/stanokafor",
-        "href": "#",
-        "arrow": "↗"
-      },
-      {
-        "label": "CV",
-        "value": "Download PDF",
-        "href": "#",
-        "arrow": "↓"
-      }
-    ]
-  },
-  "footer": {
-    "left": "© 2026 Stan Okafor. Built in Lagos.",
-    "right": "Register entries 01 – 04"
   }
 }
