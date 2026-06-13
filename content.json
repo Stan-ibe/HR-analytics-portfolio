@@ -1,0 +1,250 @@
+{
+  "brand": {
+    "name": "Stan",
+    "surname": "Okafor"
+  },
+  "hero": {
+    "eyebrow": "Lagos, Nigeria — HR & Systems",
+    "titleStart": "People-first systems, built one ",
+    "titleEmphasis": "accompanied",
+    "titleEnd": " step at a time.",
+    "subtitle": "I'm Stan — an HR practitioner, people development consultant, and workflow automation builder. I design HR programmes, write about organisational change, and build the everyday tools (registers, dashboards, trackers) that help teams run better.",
+    "primaryButtonText": "View projects →",
+    "primaryButtonLink": "#projects",
+    "secondaryButtonText": "Download CV",
+    "secondaryButtonLink": "#"
+  },
+  "register": [
+    {
+      "no": "ENTRY 01",
+      "year": "FOUNDATION",
+      "title": "HR Practice",
+      "desc": "Leave management, training needs assessments, capacity development plans — the human side of operations."
+    },
+    {
+      "no": "ENTRY 02",
+      "year": "BUILD",
+      "title": "Systems & Automation",
+      "desc": "Apps Script, Google Sheets and Netlify forms turned into procurement, mail, and leave workflows staff actually use."
+    },
+    {
+      "no": "ENTRY 03",
+      "year": "ANALYSE",
+      "title": "HR & Data Analytics",
+      "desc": "Turning attendance, performance and survey data into dashboards leadership can act on."
+    },
+    {
+      "no": "ENTRY 04",
+      "year": "REFLECT",
+      "title": "Accompaniment",
+      "desc": "Writing on transformation, ethics at work, and meeting people where they are — grounded in Catholic social teaching."
+    }
+  ],
+  "about": {
+    "sectionLabel": "01 — ABOUT",
+    "title": "A practitioner's approach",
+    "note": "Methodology over magic — the right tool for where a team is, not the most sophisticated one.",
+    "paragraphs": [
+      "I work at the intersection of human resources, IT administration, and organisational development — currently at Whitesands School in Lagos, where I split my time between HR operations, internal IT support, and building the digital workflows that keep the school's administration running.",
+      "Outside of my core role, I take on HR consulting engagements — training needs assessments, individual capacity development plans, integrity training — and I'm building a second track in data and HR analytics, working toward an MBA and a portfolio of applied analytics projects through 2026.",
+      "I also facilitate doctrinal catechism classes, drawing on case studies and the Catechism of the Catholic Church — a different kind of \"people development,\" but one that shapes how I think about ethics, dignity, and change at work."
+    ],
+    "quote": "Accompaniment is the missing word in every transformation conversation — meeting people where they are, and walking alongside them, one step at a time.",
+    "facts": [
+      {
+        "label": "Location",
+        "value": "Lagos, NG"
+      },
+      {
+        "label": "Current role",
+        "value": "HR & IT, Whitesands School"
+      },
+      {
+        "label": "Focus areas",
+        "value": "HR Ops · Automation · Analytics"
+      },
+      {
+        "label": "Tools",
+        "value": "Apps Script · Sheets · Python"
+      },
+      {
+        "label": "Currently",
+        "value": "MBA coursework, 2026"
+      },
+      {
+        "label": "Also",
+        "value": "Catechism facilitator"
+      }
+    ]
+  },
+  "work": {
+    "sectionLabel": "02 — WORK",
+    "title": "Experience",
+    "note": "Selected roles and engagements — full history in the CV.",
+    "items": [
+      {
+        "period": "2023 — Present",
+        "role": "HR & Administrative / IT Officer",
+        "org": "Whitesands School, Lagos",
+        "description": "Manage HR operations and internal IT support, and design the digital systems staff use day to day.",
+        "bullets": [
+          "Built a leave and absence management system with coordinator reassignment and mobile-friendly staff access",
+          "Designed a front desk mail and document workflow across reception, EA, principal, and staff roles",
+          "Currently building a multi-role procurement and requisition system with routing logic between procurement officers"
+        ]
+      },
+      {
+        "period": "2025",
+        "role": "HR Consultant — Training Needs Assessment",
+        "org": "Lantana College of Hospitality",
+        "description": "Delivered Individual Capacity Development Plans for 11 staff members, with automated Gmail notifications and an Excel export pipeline built on Google Sheets and Apps Script.",
+        "bullets": []
+      },
+      {
+        "period": "Ongoing",
+        "role": "Catechism Facilitator",
+        "org": "Parish doctrinal classes",
+        "description": "Prepare and deliver case-study based catechism sessions grounded in the Catechism of the Catholic Church.",
+        "bullets": []
+      }
+    ]
+  },
+  "projects": {
+    "sectionLabel": "03 — PROJECTS",
+    "title": "Selected work",
+    "note": "Systems, dashboards and analyses — filter by area.",
+    "filters": [
+      {
+        "key": "all",
+        "label": "All"
+      },
+      {
+        "key": "automation",
+        "label": "Automation"
+      },
+      {
+        "key": "hr-analytics",
+        "label": "HR Analytics"
+      },
+      {
+        "key": "data-analysis",
+        "label": "Data Analysis"
+      },
+      {
+        "key": "ml",
+        "label": "ML"
+      }
+    ],
+    "items": [
+      {
+        "category": "automation",
+        "tag": "Automation",
+        "title": "Procurement & Requisition System",
+        "description": "A multi-role requisition register with routing logic between procurement officers, built on Google Apps Script, Sheets and Netlify-hosted forms.",
+        "stack": "APPS SCRIPT · GOOGLE SHEETS · NETLIFY"
+      },
+      {
+        "category": "automation",
+        "tag": "Automation",
+        "title": "HR Leave & Absence Management",
+        "description": "End-to-end leave workflow with coordinator reassignment, deductible leave logic, and a mobile-friendly staff portal with QR sharing.",
+        "stack": "APPS SCRIPT · HTML SERVICE · GMAIL API"
+      },
+      {
+        "category": "automation",
+        "tag": "Automation",
+        "title": "Front Desk Mail & Document Workflow",
+        "description": "Four-role document routing system (reception, EA, principal, staff) with Drive uploads, image compression, and archive controls.",
+        "stack": "APPS SCRIPT · GOOGLE DRIVE · HTMLSERVICE"
+      },
+      {
+        "category": "hr-analytics",
+        "tag": "HR Analytics",
+        "title": "Individual Capacity Development Plans",
+        "description": "Training needs assessment for 11 staff translated into structured ICDPs, with automated tracking and reporting.",
+        "stack": "GOOGLE SHEETS · APPS SCRIPT · EXCEL"
+      },
+      {
+        "category": "hr-analytics",
+        "tag": "HR Analytics",
+        "title": "Staff Wellbeing & Benefits Review",
+        "description": "Comparative analysis of Nigerian HMO providers for retail family cover, mapping plans against staff locations and needs.",
+        "stack": "RESEARCH · COMPARATIVE ANALYSIS"
+      },
+      {
+        "category": "data-analysis",
+        "tag": "Data Analysis",
+        "title": "Side-Income Financial Modelling",
+        "description": "Month-by-month yield projections for a cattle resale model and cooperative investment club, built around real savings constraints.",
+        "stack": "EXCEL · FINANCIAL MODELLING"
+      },
+      {
+        "category": "ml",
+        "tag": "Machine Learning",
+        "title": "Attrition Risk Explorer",
+        "description": "In progress — a classification model flagging early attrition risk from HR dataset features, built as part of the 2026 analytics portfolio.",
+        "stack": "PYTHON · SCIKIT-LEARN · PANDAS"
+      },
+      {
+        "category": "ml",
+        "tag": "Machine Learning",
+        "title": "Survey Sentiment Classifier",
+        "description": "In progress — classifying open-ended staff survey responses into sentiment categories to surface themes for leadership.",
+        "stack": "PYTHON · NLP · PANDAS"
+      }
+    ]
+  },
+  "writing": {
+    "sectionLabel": "04 — WRITING",
+    "title": "Articles & notes",
+    "note": "On accompaniment, transformation, and people-first work.",
+    "items": [
+      {
+        "date": "2026",
+        "title": "Accompaniment: The Missing Word in Every Transformation Conversation",
+        "excerpt": "On why meeting people where they are matters more than choosing the most sophisticated tool.",
+        "link": "#"
+      },
+      {
+        "date": "2026",
+        "title": "Integrity, Without the Lecture",
+        "excerpt": "Notes from facilitating an integrity training session for non-teaching staff — drivers, security, maintenance, and horticulturists.",
+        "link": "#"
+      },
+      {
+        "date": "2025",
+        "title": "Empowering People to Lead Change",
+        "excerpt": "A report from Whitesands School's International HR Day mini-workshop, marking the school's 25th anniversary year.",
+        "link": "#"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Let's talk about people, systems, or both.",
+    "text": "Open to HR consulting engagements, workflow automation projects, and conversations about analytics in HR. Based in Lagos, working with teams anywhere.",
+    "links": [
+      {
+        "label": "Email",
+        "value": "hello@stanokafor.com",
+        "href": "mailto:hello@stanokafor.com",
+        "arrow": "↗"
+      },
+      {
+        "label": "LinkedIn",
+        "value": "/in/stanokafor",
+        "href": "#",
+        "arrow": "↗"
+      },
+      {
+        "label": "CV",
+        "value": "Download PDF",
+        "href": "#",
+        "arrow": "↓"
+      }
+    ]
+  },
+  "footer": {
+    "left": "© 2026 Stan Okafor. Built in Lagos.",
+    "right": "Register entries 01 – 04"
+  }
+}

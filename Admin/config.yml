@@ -1,0 +1,148 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: true
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "site"
+    label: "Website content"
+    files:
+      - file: "content.json"
+        label: "Edit site content"
+        name: "content"
+        fields:
+
+          - label: "Brand"
+            name: "brand"
+            widget: "object"
+            fields:
+              - { label: "First name", name: "name", widget: "string" }
+              - { label: "Surname", name: "surname", widget: "string" }
+
+          - label: "Hero section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow text (top label)", name: "eyebrow", widget: "string" }
+              - { label: "Headline - start", name: "titleStart", widget: "string" }
+              - { label: "Headline - emphasised word", name: "titleEmphasis", widget: "string" }
+              - { label: "Headline - end", name: "titleEnd", widget: "string" }
+              - { label: "Subtitle paragraph", name: "subtitle", widget: "text" }
+              - { label: "Primary button text", name: "primaryButtonText", widget: "string" }
+              - { label: "Primary button link", name: "primaryButtonLink", widget: "string" }
+              - { label: "Secondary button text", name: "secondaryButtonText", widget: "string" }
+              - { label: "Secondary button link (CV PDF URL)", name: "secondaryButtonLink", widget: "string" }
+
+          - label: "Register strip (4 entries under hero)"
+            name: "register"
+            widget: "list"
+            fields:
+              - { label: "Entry number (e.g. ENTRY 01)", name: "no", widget: "string" }
+              - { label: "Year / stage label", name: "year", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+
+          - label: "About section"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Section label", name: "sectionLabel", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Note (top right text)", name: "note", widget: "string" }
+              - label: "Paragraphs"
+                name: "paragraphs"
+                widget: "list"
+                field: { label: "Paragraph", name: "paragraph", widget: "text" }
+              - { label: "Pull-quote", name: "quote", widget: "text" }
+              - label: "Quick facts"
+                name: "facts"
+                widget: "list"
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "Value", name: "value", widget: "string" }
+
+          - label: "Work / experience section"
+            name: "work"
+            widget: "object"
+            fields:
+              - { label: "Section label", name: "sectionLabel", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Note (top right text)", name: "note", widget: "string" }
+              - label: "Experience items"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Period (e.g. 2023 — Present)", name: "period", widget: "string" }
+                  - { label: "Role title", name: "role", widget: "string" }
+                  - { label: "Organisation", name: "org", widget: "string" }
+                  - { label: "Description", name: "description", widget: "text" }
+                  - label: "Bullet points"
+                    name: "bullets"
+                    widget: "list"
+                    required: false
+                    field: { label: "Bullet", name: "bullet", widget: "string" }
+
+          - label: "Projects section"
+            name: "projects"
+            widget: "object"
+            fields:
+              - { label: "Section label", name: "sectionLabel", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Note (top right text)", name: "note", widget: "string" }
+              - label: "Filter buttons"
+                name: "filters"
+                widget: "list"
+                fields:
+                  - { label: "Key (must match a project's Category below, lowercase, no spaces)", name: "key", widget: "string" }
+                  - { label: "Button label", name: "label", widget: "string" }
+              - label: "Projects"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Category (must match a filter key above)", name: "category", widget: "string" }
+                  - { label: "Tag (shown on card)", name: "tag", widget: "string" }
+                  - { label: "Project title", name: "title", widget: "string" }
+                  - { label: "Description", name: "description", widget: "text" }
+                  - { label: "Tech stack (shown at bottom of card)", name: "stack", widget: "string" }
+
+          - label: "Writing / articles section"
+            name: "writing"
+            widget: "object"
+            fields:
+              - { label: "Section label", name: "sectionLabel", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Note (top right text)", name: "note", widget: "string" }
+              - label: "Articles"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Date / year", name: "date", widget: "string" }
+                  - { label: "Article title", name: "title", widget: "string" }
+                  - { label: "Excerpt", name: "excerpt", widget: "text" }
+                  - { label: "Link (URL to article)", name: "link", widget: "string" }
+
+          - label: "Contact section"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description text", name: "text", widget: "text" }
+              - label: "Contact links"
+                name: "links"
+                widget: "list"
+                fields:
+                  - { label: "Label (e.g. Email)", name: "label", widget: "string" }
+                  - { label: "Value (shown text)", name: "value", widget: "string" }
+                  - { label: "Link / URL", name: "href", widget: "string" }
+                  - { label: "Arrow symbol", name: "arrow", widget: "string" }
+
+          - label: "Footer"
+            name: "footer"
+            widget: "object"
+            fields:
+              - { label: "Left text", name: "left", widget: "string" }
+              - { label: "Right text", name: "right", widget: "string" }
